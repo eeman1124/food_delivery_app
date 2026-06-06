@@ -1,0 +1,37 @@
+name: test_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  cloud_firestore: ^6.5.0
+  collection: ^1.19.1
+  firebase_auth: ^6.5.2
+  firebase_core: ^4.10.0
+  firebase_database: ^12.4.2
+  flutter:
+    sdk: flutter
+  flutter_credit_card: ^4.1.0
+  http: ^1.2.1
+  intl: ^0.20.2
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/Images/burgers/
+    - lib/Images/desserts/
+    - lib/Images/drinks/
+    - lib/Images/salads/
+    - lib/Images/sides/
+
+
